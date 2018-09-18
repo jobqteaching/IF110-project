@@ -13,6 +13,6 @@ The file can be executed either by calling it from the PATH environment variable
 
 OR using relative or absolute path:
 
-~IF110-tree/$ /path/to/foled/IF110-project/list_all
-~IF110-tree/$ ./../IF110-project/list_all
+~IF110-tree$ /path/to/foled/IF110-project/list_all
+~IF110-tree$ ./../IF110-project/list_all
 
