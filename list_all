@@ -1,0 +1,16 @@
+#!/bin/bash
+cnt=0
+for dir in ./*/
+do
+    dir=${dir%*/}
+    echo -n "The $cnt th registered student is "
+    awk 'NR==1{printf $0};' ./$dir/name
+	echo -n " who comes from "    
+	awk 'NR==1{printf $0};' ./$dir/cursus
+	echo -n "; his/her hobbies are "    
+	awk 'NR==1{print $0};' ./$dir/hobbies
+
+
+	cnt=$((cnt+1))
+done
+
