@@ -12,7 +12,7 @@ The file can be executed either by calling it from the PATH environment variable
 ~IF110-tree$ list_all
 ```
 
-Or using relative or absolute path:
+Or using relative or absolute path: 
 ```
 ~IF110-tree$ ./../IF110-project/list_all
 ~IF110-tree$ /path/to/folder/IF110-project/list_all
